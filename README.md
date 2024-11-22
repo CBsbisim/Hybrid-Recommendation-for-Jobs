@@ -5,7 +5,9 @@ python3 /data/python/reco_api/api_reco.py
 
 # 混合推荐算法思路：
 由招聘信息根据用户评分的协同过滤方式进行排序推荐
+
 结合招聘信息特征相似度
+
 每天4点会进行自动保存一份推荐数据，存在/data/python/reco_api/date_loggings/目录下，名为时间戳.csv
 
 # 接口调用：
